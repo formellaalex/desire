@@ -1,0 +1,162 @@
+@font-face {
+	font-family: 'tech-help';
+	src: url('../fonts/TechnicznaPomoc.ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+body, html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	background-color: #1D323D !important;
+	font-family: 'tech-help', 'Helvetica', 'sans-serif';
+}
+body.o-nas {
+	background: url("../images/about_bg.png");
+}
+
+body.contact {
+	background: url("../images/contact-bg.png");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.no-margin {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.title {
+	color: #7E6E56;
+}
+
+.subtitle {
+	color: whitesmoke;
+}
+
+.o-nas-content {
+	padding: 4%;
+	margin-top: 16%;
+	height: 60%;
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.wrap, .content, .main {
+	height: 100%;
+	min-height: 500px;
+}
+.bx-viewport {
+	height:100% !important;
+}
+.bx-wrapper {
+	height: 100%;
+}
+.bx-viewport, .bx-wrapper{
+	position:relative;
+	width:100%;
+	top:0;
+	left:0;
+	padding: 0;
+	margin: 0;
+}
+.bxslider, .bxslider li{
+	height: 100% !important;;
+	min-height: 500px;
+}
+.bxslider li{
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+}
+.bx-wrapper .bx-viewport{
+	border: none !important;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	margin: -50px 5px 0px 5px !important;
+}
+
+.offer-container {
+	height: 100%;
+	width: 100%;
+}
+
+@mixin background-image($url) {
+	background: url($url);
+	position: relative;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+
+.offer-image {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(2, 72, 112, 0.75);
+	filter: brightness(25%);
+}
+
+.gallery-text {
+	z-index: 100;
+	position: absolute;
+	color: whitesmoke;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+}
+
+.gallery-text h4 {
+	font-size: 1rem !important;
+}
+
+.offer-image:hover {
+	opacity: 0;
+}
+
+.gallery-product {
+	width: auto;
+}
+
+@media only screen and (orientation: landscape){
+	.gallery-product {
+		height:50vmin;
+	}
+}
+
+@media only screen and (orientation: portrait){
+	.gallery-product {
+		height: 33vmax;
+	}
+}
+
+#stoly-image {
+	@include background-image("../images/1stoly.png");
+}
+#oswietlenie-image {
+	@include background-image("../images/2oswietlenie.png");
+}
+#lustra-image {
+	@include background-image("../images/3lustra.png");
+}
+#drzwi-image {
+	@include background-image("../images/4drzwi.png");
+}
+#blaty-image {
+	@include background-image("../images/5blaty.png");
+}
+#lazienka-image {
+	@include background-image("../images/6lazienka.png");
+}
+#akcesoria-image {
+	@include background-image("../images/7akcesoria.png");
+}
+#inne-image {
+	@include background-image("../images/8inne.png");
+}

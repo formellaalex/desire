@@ -1,0 +1,38 @@
+.menu-container {
+  font-family: 'tech-help', 'Arial', 'sans-serif';
+  background: #1D323D !important;
+  height: 100%;
+}
+.menu-logo img {
+  @media screen and (max-width: 576px) {
+    max-width: 60%;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 80%;
+  }
+}
+
+.menu-logo {
+  max-height: 16%;
+}
+
+.menu-list {
+  background: #1D323D;
+  border: none;
+  padding: 0;
+  margin: 50% 0 0 0;
+  text-align: center !important;
+}
+
+.menu-item {
+  background: #1D323D;
+  border: none;
+  color: #7E6E56;
+  text-transform: uppercase;
+  text-align: center  !important;
+  display: block;
+}
+
+.menu-list a:hover {
+  text-decoration: none;
+}
