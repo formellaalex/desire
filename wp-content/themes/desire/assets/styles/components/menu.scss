@@ -1,6 +1,6 @@
 .menu-container {
   font-family: 'tech-help', 'Arial', 'sans-serif';
-  background: #1D323D !important;
+  background: $site_main_blue !important;
   height: 100%;
 }
 .menu-logo img {
@@ -17,7 +17,7 @@
 }
 
 .menu-list {
-  background: #1D323D;
+  background: $site_main_blue;
   border: none;
   padding: 0;
   margin: 50% 0 0 0;
@@ -25,7 +25,7 @@
 }
 
 .menu-item {
-  background: #1D323D;
+  background: $site_main_blue;
   border: none;
   color: #7E6E56;
   text-transform: uppercase;

@@ -1,0 +1,31 @@
+.bx-viewport {
+  height:100% !important;
+}
+.bx-wrapper {
+  height: 100%;
+}
+.bx-viewport, .bx-wrapper{
+  position:relative;
+  height: 100%;
+  width:100%;
+  top:0;
+  left:0;
+  padding: 0;
+  margin: 0;
+}
+.bxslider, .bxslider li{
+  height: 100% !important;;
+  min-height: 500px;
+}
+.bxslider li{
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.bx-wrapper .bx-viewport{
+  height: 100%;
+  border: none !important;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  margin: 0px 5px 0px 5px !important;
+}
