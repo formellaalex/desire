@@ -15,14 +15,14 @@
                         <div class="row">
                             <div class="col-md-9">
                                 <form class="form-group">
-                                    <input type="text" class="form-control" placeholder="NAME"/>
-                                    <input type="text" class="form-control" placeholder="EMAIL"/>
-                                    <input type="text" class="form-control" placeholder="PHONE"/>
-                                    <input type="text" class="form-control" placeholder="TOPIC"/>
+                                    <input name="name" type="text" class="form-control" placeholder="NAME" required/>
+                                    <input name="email" type="text" class="form-control" placeholder="EMAIL" required/>
+                                    <input name="phone" type="text" class="form-control" placeholder="PHONE"/>
+                                    <input name="subject" type="text" class="form-control" placeholder="SUBJECT" required/>
                                     <div class="contact-message-container">
                                         <h6 class="contact-message-label">MESSAGE</h6>
-                                        <textarea class="form-control" placeholder="Message"> </textarea>
-                                        <button class="pull-right"> <h5> SUBMIT </h5></button>
+                                        <textarea name="message" class="form-control" placeholder="Message" required> </textarea>
+                                        <button class="pull-right" name="send_mail" disabled> <h5> SUBMIT </h5></button>
                                     </div>
                                 </form>
                             </div>
@@ -46,3 +46,31 @@
         </div>
     </div>
 </div>
+
+<?php
+
+//if (isset($_POST["send_mail"])) {
+//
+//    echo "JOOOOOŁ";
+//    $msg = $_POST["message"];
+//    $name = $_POST["name"];
+//    $phone = $_POST["phone"];
+//    $subject = $_POST["subject"];
+//    $mail = $_POST["mail"];
+//
+//    $msg = wordwrap($msg,70);
+//
+//    $header = "Name: ".$name."\n"."Phone: ".$phone."\n";
+//    $text = $header.$msg;
+//
+//    $headers = 'From: '.$mail . "\r\n" .
+//        'Reply-To: '.$mail . "\r\n" .
+//        'X-Mailer: PHP/' . phpversion();
+//
+//    mail("info@desireglass.com",$subject,$text, $headers);
+//
+//    header('Location: '.$_SERVER['PHP_SELF']);
+//    die();
+//}
+
+?>
