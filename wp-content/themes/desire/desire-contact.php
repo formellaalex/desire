@@ -10,7 +10,7 @@
                 <div class="col-md-12">
                     <div class="contact-form">
                         <div class="col-md-9 no-margin">
-                            <p class="contact-title text-center"> LET'S START THE CONVERSATION </p>
+                            <p class="contact-title text-center"> MASZ PYTANIA? NAPISZ DO NAS. </p>
                         </div>
                         <div class="row">
                             <div class="col-md-9">

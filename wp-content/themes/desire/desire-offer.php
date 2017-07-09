@@ -68,25 +68,21 @@
         $(".offer-image").mouseover(function() {
             $(this).css("background", "none");
             $(this).parent().find(".gallery-text").css("background", "rgba(0,0,0,0.75)");
-            $(this).parent().find(".gallery-text").find("h4").css("color", "whitesmoke");
         });
 
         $(".offer-image").mouseout(function() {
             $(this).css("background", "rgba(2, 72, 112, 0.75)");
             $(this).parent().find(".gallery-text").css("background", "none");
-            $(this).parent().find(".gallery-text").find("h4").css("color", "#7E6E56");
         });
 
         $(".gallery-text").mouseover(function() {
             $(this).css("background", "rgba(0,0,0, 0.75)");
             $(this).parent().find(".offer-image").css("background", "none");
-            $(this).parent().find(".gallery-text").find("h4").css("color", "whitesmoke");
         });
 
         $(".gallery-text").mouseout(function() {
             $(this).css("background", "none");
             $(this).parent().find(".offer-image").css("background", "rgba(0,0,0,0.75)");
-            $(this).parent().find(".gallery-text").find("h4").css("color", "#7E6E56");
         });
     });
 </script>
