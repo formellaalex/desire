@@ -41,17 +41,19 @@ input:focus, textarea:focus {
   border: 1px solid white;
   height: 15vh;
 }
-.contact-message-container button {
+.send-email-btn {
   background: none;
-  border: none;
-  margin-top: 3%;
-  color: #7E6E56;
+  border: none !important;
+  margin-top: -1% !important;
+  color: #7E6E56 !important;
+  padding: 0 !important;
   float: right;
+  font-size: 1.5em;
   font-family: 'tech-help', 'Helvetica', 'sans-serif';
 }
 
 .contact-form form{
-  padding: 5% 2% 10% 2%;
+  padding: 5% 2% 1% 2%;
   background-color: rgba(0, 0, 0, 0.6);
 }
 .contact-title {

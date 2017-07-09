@@ -24,15 +24,15 @@
 .gallery-text {
   z-index: 100;
   position: absolute;
-  color: whitesmoke;
   top: 40%;
   width: 100%;
   text-align: center;
-  padding: 12px 0 10px 0;
+  padding: 12px 0 4px 0;
 }
 
 .gallery-text h4 {
   font-size: 1rem !important;
+  color: #7E6E56;
 }
 
 .offer-image:hover {

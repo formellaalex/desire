@@ -54,6 +54,7 @@ define('AUTH_SALT',        'RKJrgi!Kf,y,vVL@MK03Z<Au#dE|%?%|WAudydbSK?YkD2zBb+v)
 define('SECURE_AUTH_SALT', 'ey+m-bi+[q=u+={f_3uIxkrVhDs_.m~mUB9xOrREn?i>t~hU.9Gny$nsza)YV*EH');
 define('LOGGED_IN_SALT',   '8H7rB=M+rSC#>jb73SsglL,A^Y!p72cCpR-u[1rm=[3JI_cjQJC#v7H]`{6Z 4A5');
 define('NONCE_SALT',       'HcP7 !QVEQ%@X$RF^ %%+m5PY-Z0ueq3JGEwz4I9mJniU1$xU3-8=k<-=jRfdU#7');
+define('FS_METHOD', 'direct');
 
 /**#@-*/
 
@@ -78,6 +79,8 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', true);
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', true );
 
 /* That's all, stop editing! Happy blogging. */
 
