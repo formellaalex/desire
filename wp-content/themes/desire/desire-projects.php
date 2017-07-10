@@ -45,7 +45,9 @@ echo "</div>"
 
         jQuery('.bxslider').bxSlider({
             pagerCustom: '#bx-pager-projects',
-            controls: false
+            controls: false,
+            mode: 'fade',
+            auto: true
         });
     });
 </script>

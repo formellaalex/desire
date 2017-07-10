@@ -1,4 +1,5 @@
 .bx-viewport, .bx-wrapper{
+  width: 100%;
   position:relative;
   top:0;
   left:0;
@@ -23,10 +24,10 @@ body.projects .bx-wrapper {
   min-height: 500px;
 }
 
-body.projects .bxslider li{
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 90%;
+@media screen and ( max-width: 1024px ) {
+  body.projects .bxslider li{
+    background-size: 100%;
+  }
 }
 
 .bxslider li{
@@ -41,4 +42,9 @@ body.projects .bxslider li{
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
   margin: 0px 5px 0px 5px !important;
+}
+
+#bx-pager-projects {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
