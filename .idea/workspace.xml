@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c9d5fe5-8670-41de-b6d9-e6a3d0d174c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/offer.scss" afterPath="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/offer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/desire-contact.php" afterPath="$PROJECT_DIR$/wp-content/themes/desire/desire-contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/desire-offer.php" afterPath="$PROJECT_DIR$/wp-content/themes/desire/desire-offer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/desire/desire-projects.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/desire/assets/images/contact_bg.png" afterPath="$PROJECT_DIR$/wp-content/themes/desire/assets/images/contact-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/assets/scripts/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/desire/assets/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/common/_global.scss" afterPath="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/common/_global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/components/bxslider.scss" afterPath="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/components/bxslider.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/about.scss" afterPath="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/about.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/desire-galleries.php" afterPath="$PROJECT_DIR$/wp-content/themes/desire/desire-galleries.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/lib/setup.php" afterPath="$PROJECT_DIR$/wp-content/themes/desire/lib/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/o-nas-template.php" afterPath="$PROJECT_DIR$/wp-content/themes/desire/o-nas-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/desire/templates/menu.php" afterPath="$PROJECT_DIR$/wp-content/themes/desire/templates/menu.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +27,45 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/contact.scss">
+      <file leaf-file-name="desire-projects.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/desire-projects.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-537">
-              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="526">
+              <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+              <folding>
+                <element signature="e#6#49#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bxslider.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/components/bxslider.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="desire-galleries.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/desire-galleries.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#48#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -32,28 +74,18 @@
       <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="desire-offer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/desire-offer.php">
+      <file leaf-file-name="o-nas-template.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/o-nas-template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="desire-contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/desire-contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+            <state relative-caret-position="60">
+              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -155,25 +187,26 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/akismet/.htaccess" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/about-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/templates/content-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/desire/desire-galleries.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/templates/sidebar.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/desire/o-nas-template.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/desire/lib/setup.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/base.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/common/_variables.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/components/menu.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/main.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/components/bxslider.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/scripts/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/composer.json" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/contact.scss" />
         <option value="$PROJECT_DIR$/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/desire/templates/menu.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/about.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/common/_global.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/desire-offer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/offer.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/desire/desire-contact.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/desire/templates/menu.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/desire/lib/setup.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/common/_global.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/desire/desire-galleries.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/desire/desire-projects.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/components/bxslider.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/about.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/desire/o-nas-template.php" />
       </list>
     </option>
   </component>
@@ -188,10 +221,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="449" />
-    <option name="y" value="52" />
-    <option name="width" value="907" />
-    <option name="height" value="716" />
+    <option name="x" value="71" />
+    <option name="y" value="27" />
+    <option name="width" value="1369" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -208,8 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,17 +253,99 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desire" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desire" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/desire/assets" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="off&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/layouts/offer.scss&#10;offe&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/layouts/offer.scss&#10;about&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/layouts/about.scss&#10;contact&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/desire-contact.php&#10;global&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/common/_global.scss&#10;varia&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/common/_variables.scss&#10;menu&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/templates/menu.php&#10;wp-c&#9;FILE&#9;file:///var/www/html/wp-config.php&#10;o-nas&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/o-nas-template.php&#10;functions&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/functions.php&#10;sendmail&#9;null&#9;null&#10;compose&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/composer.json&#10;wp-co&#9;FILE&#9;file:///var/www/html/wp-config.php&#10;men u&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/components/menu.scss&#10;offer&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/desire-offer.php&#10;glo&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/common/_global.scss&#10;base&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/base.php&#10;o-&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/o-nas-template.php&#10;menu.&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/components/menu.scss&#10;main.&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/scripts/main.js&#10;base.&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/base.php&#10;setup.php&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/lib/setup.php&#10;hta&#9;FILE&#9;file:///var/www/html/wp-content/plugins/akismet/.htaccess&#10;bxs&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/bower_components/bxslider/dist/jquery.bxslider.css&#10;bxsli&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/bower_components/bxslider/dist/jquery.bxslider.css&#10;gulp&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/gulpfile.js&#10;menu.p&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/templates/menu.php&#10;manu.&#9;FILE&#9;jar:///home/formel/PhpStorm-163.10504.2/plugins/php/lib/php.jar!/stubs/standard/_standard_manual.php&#10;gulpfile.js&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/gulpfile.js&#10;menu.php&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/templates/menu.php&#10;manifest.&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/manifest.json&#10;setup.&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/lib/setup.php&#10;template.&#9;FILE&#9;file:///var/www/html/wp-includes/template.php&#10;template.php&#9;FILE&#9;file:///var/www/html/wp-includes/template.php" />
+    <property name="SearchEverywhereHistoryKey" value="bxsl&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/components/bxslider.scss&#10;desi&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/desire-galleries.php&#10;global&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/common/_global.scss&#10;desire&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/desire-galleries.php&#10;index&#9;FILE&#9;file:///var/www/html/wp-content/themes/index.php&#10;menu&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/templates/menu.php&#10;desire-ga&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/desire-galleries.php&#10;main.js&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/scripts/main.js&#10;off&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/layouts/offer.scss&#10;offe&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/layouts/offer.scss&#10;about&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/layouts/about.scss&#10;contact&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/desire-contact.php&#10;varia&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/common/_variables.scss&#10;wp-c&#9;FILE&#9;file:///var/www/html/wp-config.php&#10;o-nas&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/o-nas-template.php&#10;functions&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/functions.php&#10;sendmail&#9;null&#9;null&#10;compose&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/composer.json&#10;wp-co&#9;FILE&#9;file:///var/www/html/wp-config.php&#10;men u&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/components/menu.scss&#10;offer&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/desire-offer.php&#10;glo&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/common/_global.scss&#10;base&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/base.php&#10;o-&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/o-nas-template.php&#10;menu.&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/styles/components/menu.scss&#10;main.&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/scripts/main.js&#10;base.&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/base.php&#10;setup.php&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/lib/setup.php&#10;hta&#9;FILE&#9;file:///var/www/html/wp-content/plugins/akismet/.htaccess&#10;bxs&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/bower_components/bxslider/dist/jquery.bxslider.css&#10;bxsli&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/bower_components/bxslider/dist/jquery.bxslider.css&#10;gulp&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/gulpfile.js&#10;menu.p&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/templates/menu.php&#10;manu.&#9;FILE&#9;jar:///home/formel/PhpStorm-163.10504.2/plugins/php/lib/php.jar!/stubs/standard/_standard_manual.php&#10;gulpfile.js&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/gulpfile.js&#10;menu.php&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/templates/menu.php&#10;manifest.&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/assets/manifest.json&#10;setup.&#9;FILE&#9;file:///var/www/html/wp-content/themes/desire/lib/setup.php&#10;template.&#9;FILE&#9;file:///var/www/html/wp-includes/template.php&#10;template.php&#9;FILE&#9;file:///var/www/html/wp-includes/template.php" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
@@ -383,21 +496,28 @@
       <workItem from="1499522925299" duration="1799000" />
       <workItem from="1499524744567" duration="816000" />
       <workItem from="1499622653085" duration="26000" />
-      <workItem from="1499623075541" duration="828000" />
+      <workItem from="1499623075541" duration="1803000" />
+      <workItem from="1499624900199" duration="1366000" />
+      <workItem from="1499628137288" duration="1787000" />
+      <workItem from="1499629983158" duration="1418000" />
+      <workItem from="1499672935181" duration="1846000" />
+      <workItem from="1499674805226" duration="1896000" />
+      <workItem from="1499676722491" duration="1808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97207000" />
+    <option name="totallyTimeSpent" value="108303000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="449" y="52" width="907" height="716" extended-state="4" />
+    <frame x="71" y="27" width="1369" height="873" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28776187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -408,7 +528,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -419,13 +538,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2868048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -443,16 +562,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/dist/images/test.png" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/components/_comments.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/dist/styles/images/bx_loader.gif" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/dist/styles/images/controls.png" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -593,47 +702,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/desire-galleries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/lib/setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="90" column="36" lean-forward="false" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/images/about_bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/images/contact_bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/images/contact-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/base.php">
@@ -647,13 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/components/bxslider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -671,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/class-phpmailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
@@ -692,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/o-nas-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -706,14 +758,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/templates/menu.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="79" lean-forward="false" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/common/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/offer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/desire-contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/lib/setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="91" column="37" lean-forward="false" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -725,58 +812,107 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/common/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/images/about_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/images/contact-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/dist/images/contact_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/dist/images/contact-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/images/contact-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/desire-offer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="93">
+          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/common/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/templates/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/offer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/desire-contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-537">
-          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        <state relative-caret-position="62">
+          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/common/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/desire-galleries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/components/bxslider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/desire-projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding>
+            <element signature="e#6#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/assets/styles/layouts/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/desire/o-nas-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
       </provider>

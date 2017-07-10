@@ -1,9 +1,11 @@
 .about-content {
-  padding: 4%;
+  padding: 2%;
   height: 60%;
   border: 2px solid whitesmoke;
   color: whitesmoke;
   text-align: center;
+  font-size: 1.1vw;
+  line-height: 3vh;
 }
 
 .about-content-container {
@@ -13,5 +15,5 @@
 body.o-nas {
   background: url("../images/about_bg.png");
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }

@@ -89,6 +89,7 @@ function display_sidebar() {
     is_page_template('o-nas-template.php'),
     is_page_template('desire-offer.php'),
     is_page_template('desire-contact.php'),
+    is_page_template('desire-projects.php'),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);

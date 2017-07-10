@@ -1,27 +1,40 @@
-.bx-viewport {
-  height:100% !important;
-}
-.bx-wrapper {
-  height: 100%;
-}
 .bx-viewport, .bx-wrapper{
   position:relative;
-  height: 100%;
-  width:100%;
   top:0;
   left:0;
   padding: 0;
   margin: 0;
 }
-.bxslider, .bxslider li{
-  height: 100% !important;;
+
+.bx-wrapper {
+  height: 100%;
+}
+
+body.projects .bx-wrapper {
+  height: 90% !important;
+}
+
+.bx-viewport {
+  height: 100% !important;
+}
+
+.bxslider, .bxslider li {
+  height: 100%;
   min-height: 500px;
 }
+
+body.projects .bxslider li{
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 90%;
+}
+
 .bxslider li{
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
 }
+
 .bx-wrapper .bx-viewport{
   height: 100%;
   border: none !important;

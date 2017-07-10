@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Gallery Template
+ * Template Name: Projects Template
  */
 ?>
 
@@ -31,14 +31,22 @@ foreach ( $media as $m ) {
     echo "<li style=\"background-image: url('".wp_get_attachment_url($m->ID)."\"</li>";
 }
 echo "</ul>";
+echo "<div id=\"bx-pager-projects\">";
+$index = 0;
+foreach ( $media as $m ) {
+    echo "<a data-slide-index=\"".$index."\" href=\"\"><img class=\"projects-thumbnail\" src=\"".wp_get_attachment_url($m->ID)."\"/> </a>";
+    $index++;
+}
+echo "</div>"
 ?>
 
 <script>
     jQuery(document).ready(function(){
+
         jQuery('.bxslider').bxSlider({
-            mode: 'fade',
-            auto: true,
-            pager: false
+            pagerCustom: '#bx-pager-projects',
+            controls: false
         });
     });
 </script>
+
