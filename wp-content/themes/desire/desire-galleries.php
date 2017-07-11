@@ -38,7 +38,8 @@ echo "</ul>";
         jQuery('.bxslider').bxSlider({
             mode: 'fade',
             auto: true,
-            pager: false
+            pager: false,
+            controls: false
         });
     });
 </script>

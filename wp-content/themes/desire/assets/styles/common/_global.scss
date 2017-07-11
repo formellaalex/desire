@@ -44,3 +44,9 @@ body, html{
 #bx-pager-projects {
 	text-align: center;
 }
+
+a:active, a:focus, a:hover {
+	text-decoration:none;
+	border:0;
+	outline:none;
+}
