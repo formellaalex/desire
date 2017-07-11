@@ -8,55 +8,55 @@
     <div class="row offer-row text-center">
             <div id="stoly-image" class="gallery-product col-6 col-xs-4 col-md-4 col-lg-3 no-margin">
                 <div class="text-center gallery-text">
-                    <h4 class="title">STOŁY</h4>
+                    <h4 class="title">TABLES</h4>
                 </div>
                 <div class="offer-image"> </div>
             </div>
             <div id="oswietlenie-image" class="gallery-product col-6 col-xs-4 col-md-4  col-lg-3 no-margin">
                 <div class="text-center gallery-text">
-                    <h4 class="title">LAMPY</h4>
+                    <h4 class="title">LAMPS</h4>
                 </div>
                 <div class="offer-image"> </div>
             </div>
 
             <div id="lustra-image" class="gallery-product col-6 col-xs-4 col-md-4  col-lg-3 no-margin">
                 <div class="text-center gallery-text">
-                    <h4 class="title">LUSTRA</h4>
+                    <h4 class="title">MIRRORS</h4>
                 </div>
                 <div class="offer-image"> </div>
             </div>
 
             <div id="drzwi-image" class="gallery-product col-6 col-xs-4 col-md-4 col-lg-3 no-margin">
                 <div class="text-center gallery-text">
-                    <h4 class="title">DRZWI</h4>
+                    <h4 class="title">DOORS</h4>
                 </div>
                 <div class="offer-image"> </div>
             </div>
 
             <div id="blaty-image" class="gallery-product col-6 col-xs-4 col-md-4 col-lg-3 no-margin">
                 <div class="text-center gallery-text">
-                    <h4 class="title">BLATY</h4>
+                    <h4 class="title">DECKS</h4>
                 </div>
                 <div class="offer-image"> </div>
             </div>
 
             <div id="lazienka-image" class="gallery-product col-6 col-xs-4 col-md-4  col-lg-3 no-margin">
                 <div class="text-center gallery-text">
-                    <h4 class="title">ŁAZIENKI</h4>
+                    <h4 class="title">BATHROOMS</h4>
                 </div>
                 <div class="offer-image"> </div>
             </div>
 
             <div id="akcesoria-image" class="gallery-product col-6 col-xs-4 col-md-4  col-lg-3 no-margin">
                 <div class="text-center gallery-text">
-                    <h4 class="title">AKCESORIA</h4>
+                    <h4 class="title">ACCESSORIES</h4>
                 </div>
                 <div class="offer-image"> </div>
             </div>
 
             <div id="inne-image" class="gallery-product col-6 col-xs-4 col-md-4  col-lg-3 no-margin">
                 <div class="text-center gallery-text">
-                    <h4 class="title">INNE</h4>
+                    <h4 class="title">OTHERS</h4>
                 </div>
                 <div class="offer-image"> </div>
             </div>
