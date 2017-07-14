@@ -10,31 +10,23 @@
 
 
 <?php
-$query_images_args = array(
-    'post_type'      => 'attachment',
+$media = get_posts(array(
+    'post_parent' => get_the_ID(),
+    'post_type' => 'attachment',
     'post_mime_type' => 'image',
-    'post_status'    => 'inherit',
-    'posts_per_page' => - 1
-);
-
-$query_images = new WP_Query( $query_images_args );
-
-$images = array();
-foreach ( $query_images->posts as $image ) {
-    $images[] = wp_get_attachment_url( $image->ID );
-}
-
-$media = get_attached_media( 'image' );
+    'orderby' => 'title',
+    'order' => 'DESC'
+));
 
 echo "<ul class=\"bxslider\">";
 foreach ( $media as $m ) {
     echo "<li style=\"background-image: url('".wp_get_attachment_url($m->ID)."\"</li>";
 }
 echo "</ul>";
-echo "<div id=\"bx-pager-projects\">";
+echo "<ul id=\"bx-pager-projects\">";
 $index = 0;
 foreach ( $media as $m ) {
-    echo "<a data-slide-index=\"".$index."\" href=\"\"><img class=\"projects-thumbnail\" src=\"".wp_get_attachment_url($m->ID)."\"/> </a>";
+    echo "<li data-slide-index=\"".$index."\" href=\"\"><img class=\"projects-thumbnail\" src=\"".wp_get_attachment_url($m->ID)."\"/> </li>";
     $index++;
 }
 echo "</div>"
@@ -43,12 +35,59 @@ echo "</div>"
 <script>
     jQuery(document).ready(function(){
 
-        jQuery('.bxslider').bxSlider({
+        var realSlider = jQuery('.bxslider').bxSlider({
             pagerCustom: '#bx-pager-projects',
             controls: false,
             mode: 'fade',
             auto: true
         });
+
+        var realThumbSlider = jQuery("ul#bx-pager-projects").bxSlider({
+            minSlides: 4,
+            maxSlides: 4,
+            slideWidth: 156,
+            slideMargin: 12,
+            moveSlides: 1,
+            pager:false,
+            speed:1000,
+            infiniteLoop:false,
+            hideControlOnEnd:true,
+            nextText:'<span></span>',
+            prevText:'<span></span>',
+            onSlideBefore:function($slideElement, oldIndex, newIndex){
+                /*$j("#sliderThumbReal ul .active").removeClass("active");
+                 $slideElement.addClass("active"); */
+
+            }
+        });
+
+        linkRealSliders(realSlider,realThumbSlider);
+
+        if(jQuery("#bx-pager-projects li").length<5){
+            jQuery("#bx-pager-projects .bx-next").hide();
+        }
+
+// sincronizza sliders realizzazioni
+        function linkRealSliders(bigS,thumbS){
+
+            jQuery("ul#bx-pager-projects").on("click","a",function(event){
+                event.preventDefault();
+                var newIndex = jQuery(this).parent().attr("data-slideIndex");
+                bigS.goToSlide(newIndex);
+            });
+        }
+
+//slider!=$thumbSlider. slider is the realslider
+        function changeRealThumb(slider,newIndex){
+
+            var $thumbS=jQuery("#bx-pager-projects");
+            $thumbS.find('.active').removeClass("active");
+            $thumbS.find('li[data-slideIndex="'+newIndex+'"]').addClass("active");
+
+            if(slider.getSlideCount()-newIndex>=4)slider.goToSlide(newIndex);
+            else slider.goToSlide(slider.getSlideCount()-4);
+
+        }
     });
 </script>
 
