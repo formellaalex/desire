@@ -8,7 +8,7 @@
     <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
 
-
+<div id="index-slider">
 <?php
 $media = get_posts(array(
     'post_parent' => get_the_ID(),
@@ -26,7 +26,7 @@ foreach ( $media as $m ) {
 }
 echo "</ul>";
 ?>
-
+</div>
 <script>
     jQuery(document).ready(function(){
         jQuery('.bxslider').bxSlider({

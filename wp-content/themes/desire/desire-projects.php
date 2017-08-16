@@ -8,29 +8,42 @@
     <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
 
-
+<div id="project-main-slider">
 <?php
 $media = get_posts(array(
     'post_parent' => get_the_ID(),
     'post_type' => 'attachment',
     'post_mime_type' => 'image',
+    'posts_per_page' => -1,
     'orderby' => 'title',
-    'order' => 'DESC'
+    'order' => 'ASC',
 ));
-
 echo "<ul class=\"bxslider\">";
 foreach ( $media as $m ) {
     echo "<li style=\"background-image: url('".wp_get_attachment_url($m->ID)."\"</li>";
 }
 echo "</ul>";
-echo "<ul id=\"bx-pager-projects\">";
-$index = 0;
-foreach ( $media as $m ) {
-    echo "<li data-slide-index=\"".$index."\" href=\"\"><img class=\"projects-thumbnail\" src=\"".wp_get_attachment_url($m->ID)."\"/> </li>";
-    $index++;
-}
-echo "</div>"
 ?>
+</div>
+<div id="project-pager">
+    <?php
+        $media = get_posts(array(
+            'post_parent' => get_the_ID(),
+            'post_type' => 'attachment',
+            'post_mime_type' => 'image',
+            'posts_per_page' => -1,
+            'orderby' => 'title',
+            'order' => 'ASC',
+        ));
+        echo "<ul id=\"bx-pager-projects\">";
+        $index = 0;
+        foreach ( $media as $m ) {
+            echo "<li data-slideIndex=\"".$index."\"> <a href=\"\"><img src=\"".wp_get_attachment_url($m->ID)."\"/> </a> </li>";
+            $index++;
+        }
+        echo "</ul>"
+    ?>
+</div>
 
 <script>
     jQuery(document).ready(function(){
@@ -43,14 +56,13 @@ echo "</div>"
         });
 
         var realThumbSlider = jQuery("ul#bx-pager-projects").bxSlider({
-            minSlides: 4,
-            maxSlides: 4,
-            slideWidth: 156,
-            slideMargin: 12,
+            minSlides: 2,
+            maxSlides: 20,
+            slideWidth: 125,
+            slideMargin: 5,
             moveSlides: 1,
             pager:false,
             speed:1000,
-            infiniteLoop:false,
             hideControlOnEnd:true,
             nextText:'<span></span>',
             prevText:'<span></span>',
@@ -63,7 +75,7 @@ echo "</div>"
 
         linkRealSliders(realSlider,realThumbSlider);
 
-        if(jQuery("#bx-pager-projects li").length<5){
+        if(jQuery("#bx-pager-projects li").length<9){
             jQuery("#bx-pager-projects .bx-next").hide();
         }
 
@@ -71,22 +83,11 @@ echo "</div>"
         function linkRealSliders(bigS,thumbS){
 
             jQuery("ul#bx-pager-projects").on("click","a",function(event){
+                console.log("sunę");
                 event.preventDefault();
                 var newIndex = jQuery(this).parent().attr("data-slideIndex");
                 bigS.goToSlide(newIndex);
             });
-        }
-
-//slider!=$thumbSlider. slider is the realslider
-        function changeRealThumb(slider,newIndex){
-
-            var $thumbS=jQuery("#bx-pager-projects");
-            $thumbS.find('.active').removeClass("active");
-            $thumbS.find('li[data-slideIndex="'+newIndex+'"]').addClass("active");
-
-            if(slider.getSlideCount()-newIndex>=4)slider.goToSlide(newIndex);
-            else slider.goToSlide(slider.getSlideCount()-4);
-
         }
     });
 </script>

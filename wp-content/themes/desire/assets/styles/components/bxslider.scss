@@ -1,50 +1,68 @@
-.bx-viewport, .bx-wrapper{
+#project-main-slider, #index-slider {
+  .bx-viewport, .bx-wrapper {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bx-wrapper {
+    height: 100%;
+  }
+
+  body.projects .bx-wrapper {
+    height: 90% !important;
+  }
+
+  .bx-viewport {
+    height: 100% !important;
+  }
+
+  .bxslider, .bxslider li {
+    height: 100%;
+    min-height: 500px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    body.projects .bxslider li {
+      background-size: 100%;
+    }
+  }
+
+  .bxslider li {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .bx-wrapper .bx-viewport {
+    height: 100%;
+    border: none !important;
+  }
+  .bx-wrapper .bx-pager.bx-default-pager a {
+    margin: 0px 5px 0px 5px !important;
+  }
+
+  #bx-pager-projects {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+#project-main-slider {
+  height: 85%;
   width: 100%;
-  position:relative;
-  top:0;
-  left:0;
   padding: 0;
   margin: 0;
 }
 
-.bx-wrapper {
-  height: 100%;
+#project-pager {
+  text-align: center;
+  margin-top: 10px;
 }
 
-body.projects .bx-wrapper {
-  height: 90% !important;
-}
-
-.bx-viewport {
+#index-slider {
   height: 100% !important;
-}
-
-.bxslider, .bxslider li {
-  height: 100%;
-  min-height: 500px;
-}
-
-@media screen and ( max-width: 1024px ) {
-  body.projects .bxslider li{
-    background-size: 100%;
-  }
-}
-
-.bxslider li{
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-}
-
-.bx-wrapper .bx-viewport{
-  height: 100%;
-  border: none !important;
-}
-.bx-wrapper .bx-pager.bx-default-pager a {
-  margin: 0px 5px 0px 5px !important;
-}
-
-#bx-pager-projects {
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
