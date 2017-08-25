@@ -30,9 +30,22 @@
   padding: 12px 0 4px 0;
 }
 
-.gallery-text h4 {
+.offer-text {
+  z-index: 100;
+  position: absolute;
+  top: 100%;
+  margin-top: -3rem;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.gallery-text h4, .offer-text h4 {
   font-size: 1rem !important;
   color: whitesmoke !important;
+  margin: 0;
+  padding: 0;
 }
 
 .offer-image:hover {

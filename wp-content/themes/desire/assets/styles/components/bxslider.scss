@@ -1,4 +1,4 @@
-#project-main-slider, #index-slider {
+#project-main-slider, #index-slider, #model-slider {
   .bx-viewport, .bx-wrapper {
     width: 100%;
     position: relative;
@@ -63,6 +63,6 @@
   margin-top: 10px;
 }
 
-#index-slider {
+#index-slider, #model-slider {
   height: 100% !important;
 }

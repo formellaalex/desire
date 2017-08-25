@@ -6,12 +6,16 @@
 
 <div class="container offer-container">
     <div class="row offer-row text-center">
-            <div id="stoly-image" class="gallery-product col-6 col-xs-4 col-md-4 col-lg-3 no-margin">
-                <div class="text-center gallery-text">
-                    <h4 class="title">TABLES</h4>
+
+                <div id="stoly-image" class="gallery-product col-6 col-xs-4 col-md-4 col-lg-3 no-margin">
+                    <a href="/index.php/projects/tables">
+                        <div class="text-center gallery-text">
+                            <h4 class="title">TABLES</h4>
+                        </div>
+                        <div class="offer-image"> </div>
+                    </a>
                 </div>
-                <div class="offer-image"> </div>
-            </div>
+
             <div id="oswietlenie-image" class="gallery-product col-6 col-xs-4 col-md-4  col-lg-3 no-margin">
                 <div class="text-center gallery-text">
                     <h4 class="title">LAMPS</h4>

@@ -90,6 +90,8 @@ function display_sidebar() {
     is_page_template('desire-offer.php'),
     is_page_template('desire-contact.php'),
     is_page_template('desire-projects.php'),
+    is_page_template('desire-offer-type.php'),
+    is_page_template('desire-offer-type-model.php'),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
