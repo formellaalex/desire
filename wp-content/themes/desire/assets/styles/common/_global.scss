@@ -15,6 +15,15 @@ body, html{
 	font-family: 'tech-help', 'Helvetica', 'sans-serif';
 }
 
+@media (max-width: 768px) {
+	body {
+		background: url("../images/contact_bg.jpg");
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		z-index: 1;
+	}
+}
+
 .no-margin {
 	padding: 0 !important;
 	margin: 0 !important;

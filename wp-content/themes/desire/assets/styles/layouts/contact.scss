@@ -59,3 +59,9 @@ input:focus, textarea:focus {
 .contact-text title {
   color: #7E6E56;
 }
+
+@media (max-width: 768px) {
+  .contact-text {
+    margin-top: 5%;
+  }
+}
