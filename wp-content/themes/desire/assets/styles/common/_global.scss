@@ -46,3 +46,7 @@ a:active, a:focus, a:hover {
 	border:0;
 	outline:none;
 }
+
+button:active, button:focus, button:active:focus, button.active:focus {
+	outline: none !important;
+}

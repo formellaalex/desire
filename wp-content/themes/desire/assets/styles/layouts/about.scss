@@ -4,8 +4,21 @@
   border: 2px solid whitesmoke;
   color: whitesmoke;
   text-align: center;
-  font-size: 1.1vw;
+  font-size: 1vmax;
   line-height: 3vh;
+}
+
+@media only screen and (max-width : 768px) {
+  .about-content {
+    padding: 5%;
+    height: 60%;
+    border: none;
+    color: whitesmoke;
+    overflow: hidden;
+    font-size: 2vmax;
+    line-height: 3vh;
+    text-overflow: ellipsis
+  }
 }
 
 .about-content-container {

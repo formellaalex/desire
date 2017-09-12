@@ -27,7 +27,7 @@
   top: 40%;
   width: 100%;
   text-align: center;
-  padding: 12px 0 4px 0;
+  padding: 12px 0 10px 0;
 }
 
 .offer-text {
@@ -54,6 +54,41 @@
 
 .gallery-product {
   width: auto;
+}
+
+#expand-offer-model {
+  background: rgba(111,109,111, 0.5);
+  border: none;
+  color: white;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#expand-offer-model:hover,
+#expand-offer-model:active:focus,
+#expand-offer-model.active:focus {
+  background: rgba(92, 90, 92, 0.5);
+}
+
+#offer-model-description {
+  padding: 2%;
+  background: rgba(111,109,111, 0.5);
+  color: whitesmoke;
+}
+
+#offer-model-description-block {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  margin: 0;
+  z-index: 999;
+}
+
+.offer-model-image {
+  height: 33.33333vmin;
+  width: 100%;
 }
 
 @media only screen and (orientation: landscape){

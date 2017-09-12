@@ -4,7 +4,7 @@
   height: 100%;
 }
 .menu-logo img {
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 768px) {
     max-width: 60%;
   }
   @media screen and (min-width: 768px) {
@@ -12,8 +12,34 @@
   }
 }
 
+@media (min-width: 768px) {
+  .bootstrap-vertical-nav .collapse {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-container {
+    font-family: 'tech-help', 'Arial', 'sans-serif';
+    height: auto;
+    background: none !important;
+  }
+  .menu-list {
+    margin: 10% 0 0 0 !important;
+    background: none !important;
+  }
+
+  .menu-item {
+    background: none !important;
+  }
+
+  .menu-logo {
+    height: 100px !important;
+  }
+}
+
 .menu-logo {
-  max-height: 16%;
+  max-height: 16% !important;
 }
 
 .menu-list {

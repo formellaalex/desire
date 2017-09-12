@@ -3,10 +3,15 @@
  * Template Name: Offer model Template
  */
 ?>
-
-<?php while (have_posts()) : the_post(); ?>
-    <?php get_template_part('templates/content', 'page'); ?>
-<?php endwhile; ?>
+<div id="offer-model-description-block">
+    <button id='expand-offer-model' data-toggle="collapse" data-target="#offer-model-description"> + </button>
+    <br /><br />
+    <div id="offer-model-description" class="collapse">
+        <?php while (have_posts()) : the_post(); ?>
+            <?php get_template_part('templates/content', 'page'); ?>
+        <?php endwhile; ?>
+    </div>
+</div>
 
 <div id="model-slider">
     <?php
@@ -19,7 +24,6 @@
     ));
 
     $media = get_attached_media( 'image' );
-
     echo "<ul class=\"bxslider\">";
     foreach ( $media as $m ) {
         echo "<li style=\"background-image: url('".wp_get_attachment_url($m->ID)."\"</li>";
@@ -33,7 +37,7 @@
             mode: 'fade',
             auto: true,
             pager: false,
-            controls: false
+            controls: true
         });
     });
 </script>

@@ -1,7 +1,6 @@
 #project-main-slider, #index-slider, #model-slider {
   .bx-viewport, .bx-wrapper {
-    width: 100%;
-    position: relative;
+    z-index: 1;
     top: 0;
     left: 0;
     padding: 0;

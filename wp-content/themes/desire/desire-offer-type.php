@@ -15,10 +15,10 @@
     echo "<div class='row'> ";
     foreach ( $media as $m ) {
         echo "<div class='col-6 no-margin'> 
-                <div class=\"thumbnail\"> 
+                <div class=\"thumbnail \"> 
                      <a href='".htmlspecialchars(wp_get_attachment_caption($m->ID))."'>
                         <div class='offer-text'> <h4> ".htmlspecialchars(get_the_title($m->ID))." </h4> </div>
-                        <img style=\"width:100%\" class='img-responsive' src=\"".htmlspecialchars(wp_get_attachment_url($m->ID))."\"> 
+                        <img class='img-responsive offer-model-image' src=\"".htmlspecialchars(wp_get_attachment_url($m->ID))."\"> 
                     </a>
                 </div> 
             </div>";

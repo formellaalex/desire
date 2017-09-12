@@ -8,6 +8,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha.6",
-    "bxslider": "git://github.com/stevenwanderski/bxslider-4.git"
+    "bxslider": "git://github.com/stevenwanderski/bxslider-4.git",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }
